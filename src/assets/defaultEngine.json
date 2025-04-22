@@ -23,23 +23,6 @@
     "translation": "https://fanyi.sogou.com/text?keyword=",
     "icon": "sogou"
   },
-  "duckduckgo": {
-    "name": "DuckDuckGo",
-    "url": "https://duckduckgo.com/?q=",
-    "icon": "duckduckgo"
-  },
-  "yandex": {
-    "name": "Yandex",
-    "url": "https://yandex.com/search/?text=",
-    "translation": "https://translate.yandex.com/?text=",
-    "icon": "yandex"
-  },
-  "search-360": {
-    "name": "360 搜索",
-    "url": "https://www.so.com/s?q=",
-    "translation": "https://fanyi.so.com/#",
-    "icon": "search-360"
-  },
   "weibo": {
     "name": "微博",
     "url": "https://s.weibo.com/weibo?q=",
