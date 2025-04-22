@@ -127,7 +127,7 @@ onMounted(() => {
   updateTimeData();
   timeInterval.value = setInterval(updateTimeData, 1000);
   // 天气
-  getWeatherData();
+  // getWeatherData();
 });
 
 onBeforeUnmount(() => {
