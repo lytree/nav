@@ -43,7 +43,7 @@ const setBgUrl = () => {
       break;
     }
     case 2:
-      bgUrl.value = "https://www.dmoe.cc/random.php";
+      bgUrl.value = "https://t.alcy.cc/ai";
       break;
     case 3:
       bgUrl.value = "https://t.alcy.cc/ycy";
