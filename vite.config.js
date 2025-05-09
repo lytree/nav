@@ -63,6 +63,15 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: "modern",
+        additionalData: `@use "@/style/global.scss" as *;`,
+        silenceDeprecations: ["legacy-js-api"],
+      },
+    },
+  },
   build: {
     minify: "terser",
     terserOptions: {

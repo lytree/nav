@@ -1,15 +1,8 @@
 <template>
   <div :class="status.siteStatus !== 'normal' ? 'cover focus' : 'cover'">
-    <img
-      v-show="status.imgLoadStatus"
-      class="background"
-      alt="background"
-      :src="bgUrl"
-      :style="{ '--blur': set.backgroundBlur + 'px' }"
-      @load="imgLoadComplete"
-      @error.once="imgLoadError"
-      @animationend="imgAnimationEnd"
-    />
+    <img v-show="status.imgLoadStatus" class="background" alt="background" :src="bgUrl"
+      :style="{ '--blur': set.backgroundBlur + 'px' }" @load="imgLoadComplete" @error.once="imgLoadError"
+      @animationend="imgAnimationEnd" />
     <Transition name="fade">
       <div v-if="set.showBackgroundGray" class="gray" />
     </Transition>
@@ -96,12 +89,14 @@ onBeforeUnmount(() => {
   height: 100%;
   position: relative;
   background-color: var(--body-background-color);
+
   &.focus {
     .background {
       filter: blur(calc(var(--blur) + 10px)) brightness(0.8);
       transform: scale(1.3);
     }
   }
+
   .background {
     position: absolute;
     left: 0;
@@ -117,6 +112,7 @@ onBeforeUnmount(() => {
       transform 0.3s;
     animation: fade-blur-in 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
+
   .gray {
     position: absolute;
     left: 0;

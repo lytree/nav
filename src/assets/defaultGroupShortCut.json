@@ -1,0 +1,344 @@
+[
+  {
+    "categoryName": "AI大模型",
+    "websiteDataList": [
+      {
+        "name": "DeepSeek",
+        "url": "https://chat.deepseek.com/"
+      },
+      {
+        "name": "豆包",
+        "url": "http://www.doubao.com/"
+      },
+      {
+        "name": "混元元宝",
+        "url": "https://yuanbao.tencent.com/"
+      },
+      {
+        "name": "通义千问",
+        "url": "https://tongyi.aliyun.com/"
+      },
+      {
+        "name": "文心一言",
+        "url": "https://yiyan.baidu.com/"
+      },
+      {
+        "name": "智谱清言",
+        "url": "https://chatglm.cn/"
+      },
+      {
+        "name": "讯飞星火",
+        "url": "https://xinghuo.xfyun.cn/desk"
+      },
+      {
+        "name": "Kimi",
+        "url": "https://moonshot.cn/"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com/gpts"
+      },
+      {
+        "name": "秘塔AI搜索",
+        "url": "https://metaso.cn/"
+      },
+      {
+        "name": "百度AI搜索",
+        "url": "https://chat.baidu.com/"
+      },
+      {
+        "name": "AI新媒体文章",
+        "url": "https://vt.quark.cn/blm/creator-773/index"
+      }
+    ]
+  },
+  {
+    "categoryName": "官方视频",
+    "websiteDataList": [
+      {
+        "name": "腾讯视频",
+        "url": "https://v.qq.com/"
+      },
+      {
+        "name": "爱奇艺",
+        "url": "https://www.iqiyi.com/"
+      },
+      {
+        "name": "优酷视频",
+        "url": "https://www.youku.com/"
+      },
+      {
+        "name": "哔哩哔哩",
+        "url": "https://www.bilibili.com/"
+      },
+      {
+        "name": "西瓜视频",
+        "url": "https://www.ixigua.com/"
+      },
+      {
+        "name": "芒果TV",
+        "url": "https://www.mgtv.com/"
+      },
+      {
+        "name": "抖音",
+        "url": "https://www.douyin.com/"
+      },
+      {
+        "name": "小红书",
+        "url": "https://www.xiaohongshu.com/"
+      },
+      {
+        "name": "快手",
+        "url": "https://www.kuaishou.com/"
+      },
+      {
+        "name": "AcFun",
+        "url": "http://www.acfun.cn/"
+      }
+    ]
+  },
+  {
+    "categoryName": "免费影视网站",
+    "websiteDataList": [
+      {
+        "name": "茶杯狐",
+        "url": "https://cupfox.love/"
+      },
+      {
+        "name": "7点电影",
+        "url": "https://www.7.movie/"
+      },
+      {
+        "name": "火车太堵",
+        "url": "https://www.tdgo.shop/"
+      },
+      {
+        "name": "555电影网",
+        "url": "https://www.jjil0e5.wiki/index/home.html"
+      },
+      {
+        "name": "豌豆pro",
+        "url": "https://wandu.co/"
+      },
+      {
+        "name": "美益达",
+        "url": "https://www.mydys2.com/"
+      },
+      {
+        "name": "皮皮影视",
+        "url": "https://www.pipiys2.com/"
+      },
+      {
+        "name": "短剧资源",
+        "url": "https://dj.kksjw.top/"
+      },
+      {
+        "name": "大米星球",
+        "url": "https://www.uffqx8f.wiki/index/home.html"
+      }
+    ]
+  },
+  {
+    "categoryName": "新闻热点",
+    "websiteDataList": [
+      {
+        "name": "微博",
+        "url": "https://weibo.com/"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/"
+      },
+      {
+        "name": "人民网",
+        "url": "http://www.people.com.cn/"
+      },
+      {
+        "name": "央视网",
+        "url": "http://www.cctv.com/"
+      },
+      {
+        "name": "搜狐新闻",
+        "url": "http://news.sohu.com/"
+      },
+      {
+        "name": "新浪新闻",
+        "url": "http://news.sina.com.cn/"
+      },
+      {
+        "name": "新华网",
+        "url": "http://www.xinhuanet.com/"
+      },
+      {
+        "name": "凤凰网",
+        "url": "http://news.ifeng.com/"
+      },
+      {
+        "name": "腾讯新闻",
+        "url": "https://news.qq.com/"
+      },
+      {
+        "name": "中国新闻网",
+        "url": "http://www.chinanews.com/"
+      },
+      {
+        "name": "南方网",
+        "url": "http://www.southcn.com/"
+      },
+      {
+        "name": "环球网",
+        "url": "http://www.huanqiu.com/"
+      },
+      {
+        "name": "澎湃新闻",
+        "url": "https://www.thepaper.cn/"
+      },
+      {
+        "name": "新京报",
+        "url": "http://www.bjnews.com.cn/"
+      },
+      {
+        "name": "财新网",
+        "url": "http://www.caixin.com/"
+      },
+      {
+        "name": "21世纪经济报道",
+        "url": "http://www.21jingji.com/"
+      },
+      {
+        "name": "网易新闻",
+        "url": "http://news.163.com/"
+      }
+    ]
+  },
+  {
+    "categoryName": "编程开发",
+    "websiteDataList": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "Gitee",
+        "url": "https://gitee.com/"
+      },
+      {
+        "name": "Vue.js",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "name": "React",
+        "url": "https://reactjs.org/"
+      },
+      {
+        "name": "菜鸟教程",
+        "url": "https://www.runoob.com/"
+      },
+      {
+        "name": "Webpack",
+        "url": "https://webpack.docschina.org/"
+      },
+      {
+        "name": "Node",
+        "url": "https://nodejs.cn/"
+      },
+      {
+        "name": "Electron",
+        "url": "https://www.electronjs.org/zh/"
+      },
+      {
+        "name": "babel",
+        "url": "https://babel.docschina.org/docs/"
+      },
+      {
+        "name": "掘金",
+        "url": "https://juejin.cn/"
+      },
+      {
+        "name": "Element",
+        "url": "https://element.eleme.cn/#/zh-CN"
+      },
+      {
+        "name": "CSDN",
+        "url": "https://www.csdn.net/"
+      },
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/"
+      },
+      {
+        "name": "W3Schools",
+        "url": "https://www.w3schools.com/"
+      }
+    ]
+  },
+  {
+    "categoryName": "书籍资源网站",
+    "websiteDataList": [
+      {
+        "name": "鸠摩搜书",
+        "url": "https://www.jiumodiary.com/"
+      },
+      {
+        "name": "微信读书",
+        "url": "https://weread.qq.com/"
+      },
+      {
+        "name": "京东读书",
+        "url": "https://e-m.jd.com/"
+      },
+      {
+        "name": "番茄小说",
+        "url": "https://fanqienovel.com/"
+      },
+      {
+        "name": "熊猫搜书",
+        "url": "https://xmsoushu.com/#/"
+      },
+      {
+        "name": "知轩藏书",
+        "url": "https://new.zxcs.info/"
+      },
+      {
+        "name": "妙笔阁",
+        "url": "https://www.miaobige.com/"
+      },
+      {
+        "name": "爱悦读",
+        "url": "https://www.iyd.wang/"
+      },
+      {
+        "name": "书荒部落",
+        "url": "https://noveless.com/"
+      },
+      {
+        "name": "贼吧网",
+        "url": "https://www.zei8.vip/"
+      },
+      {
+        "name": "码农之家",
+        "url": "https://www.xz577.com/"
+      },
+      {
+        "name": "多看阅读",
+        "url": "https://www.duokan.com/"
+      },
+      {
+        "name": "豆瓣阅读",
+        "url": "https://read.douban.com/"
+      },
+      {
+        "name": "起点中文网",
+        "url": "https://www.qidian.com/"
+      },
+      {
+        "name": "纵横中文网",
+        "url": "https://www.zongheng.com/"
+      }
+    ]
+  }
+]

@@ -4,31 +4,16 @@
     <Transition name="fade" mode="out-in">
       <div v-if="shortcutData[0]" class="shortcut">
         <n-scrollbar class="scrollbar">
-          <n-grid
-            class="all-shortcut"
-            responsive="screen"
-            cols="2 s:3 m:4 l:5"
-            :x-gap="10"
-            :y-gap="10"
-          >
-            <n-grid-item
-              v-for="item in shortcutData"
-              :key="item"
-              class="shortcut-item"
-              @contextmenu="shortCutContextmenu($event, item)"
-              @click="shortCutJump(item.url)"
-            >
+          <n-grid class="all-shortcut" responsive="screen" cols="2 s:3 m:4 l:5" :x-gap="10" :y-gap="10">
+            <n-grid-item v-for="item in shortcutData" :key="item" class="shortcut-item"
+              @contextmenu="shortCutContextmenu($event, item)" @click="shortCutJump(item.url)">
               <span class="name">{{ item.name }}</span>
             </n-grid-item>
-            <n-grid-item
-              class="shortcut-item"
-              @contextmenu="
-                (e) => {
-                  e.preventDefault();
-                }
-              "
-              @click="addShortcutModalOpen"
-            >
+            <n-grid-item class="shortcut-item" @contextmenu="
+              (e) => {
+                e.preventDefault();
+              }
+            " @click="addShortcutModalOpen">
               <SvgIcon iconName="icon-add" />
               <span class="name">添加捷径</span>
             </n-grid-item>
@@ -58,36 +43,15 @@
     </div>
   </div>
   <!-- 添加捷径 -->
-  <n-modal
-    preset="card"
-    v-model:show="addShortcutModalShow"
-    :title="`${addShortcutModalType ? '编辑' : '添加'}捷径`"
-    :bordered="false"
-    @mask-click="addShortcutClose"
-  >
-    <n-form
-      ref="addShortcutRef"
-      :rules="addShortcutRules"
-      :model="addShortcutValue"
-      :label-width="80"
-    >
+  <n-modal preset="card" v-model:show="addShortcutModalShow" :title="`${addShortcutModalType ? '编辑' : '添加'}捷径`"
+    :bordered="false" @mask-click="addShortcutClose">
+    <n-form ref="addShortcutRef" :rules="addShortcutRules" :model="addShortcutValue" :label-width="80">
       <n-form-item label="ID" path="id">
-        <n-input-number
-          disabled
-          placeholder="请输入ID"
-          v-model:value="addShortcutValue.id"
-          style="width: 100%"
-          :show-button="false"
-        />
+        <n-input-number disabled placeholder="请输入ID" v-model:value="addShortcutValue.id" style="width: 100%"
+          :show-button="false" />
       </n-form-item>
       <n-form-item label="捷径名称" path="name">
-        <n-input
-          clearable
-          show-count
-          maxlength="14"
-          v-model:value="addShortcutValue.name"
-          placeholder="请输入捷径名称"
-        />
+        <n-input clearable show-count maxlength="14" v-model:value="addShortcutValue.name" placeholder="请输入捷径名称" />
       </n-form-item>
       <n-form-item label="站点链接" path="url">
         <n-input clearable v-model:value="addShortcutValue.url" placeholder="请输入站点链接" />
@@ -103,21 +67,11 @@
     </template>
   </n-modal>
   <!-- 捷径右键菜单 -->
-  <n-dropdown
-    placement="bottom-start"
-    trigger="manual"
-    size="large"
-    :x="shortCutDropdownX"
-    :y="shortCutDropdownY"
-    :options="shortCutDropdownOptions"
-    :show="shortCutDropdownShow"
-    :on-clickoutside="
-      () => {
+  <n-dropdown placement="bottom-start" trigger="manual" size="large" :x="shortCutDropdownX" :y="shortCutDropdownY"
+    :options="shortCutDropdownOptions" :show="shortCutDropdownShow" :on-clickoutside="() => {
         shortCutDropdownShow = false;
       }
-    "
-    @select="shortCutDropdownSelect"
-  />
+      " @select="shortCutDropdownSelect" />
 </template>
 
 <script setup>
@@ -454,13 +408,16 @@ function clickFileDom() {
   flex-direction: column;
   width: 100%;
   height: 100%;
+
   .shortcut {
     width: 100%;
     height: 100%;
     overflow-y: auto;
+
     .all-shortcut {
       padding: 20px;
       box-sizing: border-box;
+
       .shortcut-item {
         cursor: pointer;
         height: 60px;
@@ -474,41 +431,49 @@ function clickFileDom() {
         transition:
           background-color 0.3s,
           box-shadow 0.3s;
+
         .i-icon {
           width: 1rem;
           margin-right: 6px;
           font-size: 20px;
           opacity: 1;
         }
+
         .name {
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
         }
+
         &:hover {
           background-color: var(--main-background-hover-color);
           box-shadow: 0 0 0px 2px var(--main-background-hover-color);
         }
+
         &:active {
           box-shadow: none;
         }
       }
     }
   }
+
   .not-shortcut {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     .tip {
       font-size: 24px;
       margin-bottom: 20px;
     }
   }
+
   .footer__btn-group {
     display: flex;
     padding: 15px 0;
     padding-left: 20px;
+
     .footer__btn {
       border-radius: 8px;
       width: 80px;
@@ -519,10 +484,12 @@ function clickFileDom() {
       cursor: pointer;
       font-size: 16px;
     }
+
     #shortCutUploadInput {
       display: none;
     }
-    div + div {
+
+    div+div {
       margin-left: 10px;
     }
   }
