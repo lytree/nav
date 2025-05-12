@@ -6,6 +6,8 @@ import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import SvgIcon from "@/components/SvgIcon.vue";
 // 主组件
 import App from "@/App.vue";
+
+import "virtual:uno.css";
 // // 全局样式
 // import "@/style/global.scss";
 

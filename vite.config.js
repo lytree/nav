@@ -3,7 +3,7 @@ import { VitePWA } from "vite-plugin-pwa";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
 import viteCompression from "vite-plugin-compression";
-
+import UnoCSS from "unocss/vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -51,6 +51,7 @@ export default defineConfig({
     }),
     // viteCompression
     viteCompression(),
+    UnoCSS(),
   ],
   server: {
     port: 5588,
