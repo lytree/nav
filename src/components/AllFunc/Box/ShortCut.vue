@@ -9,28 +9,28 @@
               @contextmenu="shortCutContextmenu($event, item)" @click="shortCutJump(item.url)">
               <span class="name">{{ item.name }}</span>
             </n-grid-item>
-            <n-grid-item class="shortcut-item" @contextmenu="
+            <!-- <n-grid-item class="shortcut-item" @contextmenu="
               (e) => {
                 e.preventDefault();
               }
             " @click="addShortcutModalOpen">
               <SvgIcon iconName="icon-add" />
               <span class="name">添加捷径</span>
-            </n-grid-item>
+            </n-grid-item> -->
           </n-grid>
         </n-scrollbar>
       </div>
       <div v-else class="not-shortcut">
         <span class="tip">暂无捷径，去添加吧</span>
-        <n-button strong secondary @click="addShortcutModalOpen">
+        <!-- <n-button strong secondary @click="addShortcutModalOpen">
           <template #icon>
             <SvgIcon iconName="icon-add" />
           </template>
           添加捷径
-        </n-button>
+        </n-button> -->
       </div>
     </Transition>
-    <div class="footer__btn-group">
+    <!-- <div class="footer__btn-group">
       <div class="footer__btn" @click="downloadHtmlFile">
         <SvgIcon iconName="icon-xiazai" />
         <span class="btnName">下载</span>
@@ -40,7 +40,7 @@
         <SvgIcon iconName="icon-shangchuan" />
         <span class="btnName">上传</span>
       </div>
-    </div>
+    </div> -->
   </div>
   <!-- 添加捷径 -->
   <n-modal preset="card" v-model:show="addShortcutModalShow" :title="`${addShortcutModalType ? '编辑' : '添加'}捷径`"
